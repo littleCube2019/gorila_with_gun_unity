@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc69bcd489cba6429ac245e7c248d36, type: 3}
+  m_Name: bomb_knight_big
+  m_EditorClassIdentifier: 
+  enemyType: 12
+  sprite: {fileID: 21300000, guid: a15bb59450778bb4ab1740aad6c8df26, type: 3}
+  baseArgs:
+    maxHealth: 50
+    moveSpeed: 0.5
+    deadRewardNum: 1
+    deadRewardType: 0
+    isGround: 0
+  prefab: {fileID: -8650073945703419786, guid: b5a4842303ba6304cbf8c6417100a538, type: 3}
+  anim: {fileID: 22100000, guid: e6ec609fbc5a9614f8e5f603ca4b3c40, type: 2}
+  jumpArgs:
+    attackPower: 0
+    attackRange: 0
+    cooldown: 0
+    jumpForce: 20
+    downForce: 0.5

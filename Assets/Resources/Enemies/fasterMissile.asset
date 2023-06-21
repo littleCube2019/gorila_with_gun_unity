@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403e958edbb7c4b4d92bcb11ec777d54, type: 3}
+  m_Name: fasterMissile
+  m_EditorClassIdentifier: 
+  enemyType: 19
+  sprite: {fileID: 21300000, guid: f2052bd9f0938f0408e691228481bfa7, type: 3}
+  baseArgs:
+    maxHealth: 1
+    moveSpeed: 5
+    deadRewardNum: 3
+    deadRewardType: 0
+    isGround: 0
+  prefab: {fileID: 5408119818903732705, guid: 2312e8247b808e94cbc79552ad44b4bb, type: 3}
+  anim: {fileID: 22100000, guid: 0836899fb508e7d458d0e624769fdce9, type: 2}
+  meleeArgs:
+    attackPower: 0
+    attackRange: 0
+    cooldown: 0
+    isKnockBack: 0
+    knockBackSpeed: 0
+    knockBackIntervel: 0
+    isFaceToPlayer: 1

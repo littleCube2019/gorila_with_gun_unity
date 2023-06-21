@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c822ea5a420e5d44bb225ccaa7288ef0, type: 3}
+  m_Name: BossFinalEnemy
+  m_EditorClassIdentifier: 
+  enemyType: 16
+  sprite: {fileID: 21300014, guid: a0e7f1167efba544bb8d6e3198ae44f9, type: 3}
+  baseArgs:
+    maxHealth: 400
+    moveSpeed: 0
+    deadRewardNum: 0
+    deadRewardType: 0
+    isGround: 0
+  prefab: {fileID: -2362151172783551666, guid: 0cde08bf157b60c45a81e328416d8f5b, type: 3}
+  anim: {fileID: 0}
+  bossFinalArgs:
+    hpGradient:
+      serializedVersion: 2
+      key0: {r: 0.9607844, g: 0.058823533, b: 0.058823533, a: 1}
+      key1: {r: 0.9607843, g: 0.890317, b: 0.07843139, a: 1}
+      key2: {r: 0.22660972, g: 0.9622642, b: 0.077162705, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 6554
+      ctime1: 19661
+      ctime2: 42791
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    GenerateSheildZombie_CoolDown: 5
+    GenerateSheildZombie_Num: 2
+    GenerateSheildZombie_Interval: 5
+    shieldHp: 20
+    FireMissile_CoolDown: 10
+    GenerateMissile_Num: 5
+    GenerateMissile_interval: 1
+    FireHand_CoolDown: 10
+    FireHand_num: 3
+    ThrowBomb_CoolDown: 5
+    ThrowBomb_num: 0
+    bossName: Robot chimp
+  hpBarObj: {fileID: 0}

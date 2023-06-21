@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524fd01670404a2408315ab586b0ec8a, type: 3}
+  m_Name: sniperAmmo
+  m_EditorClassIdentifier: 
+  goodsType: 4
+  mainIcon: {fileID: 21300000, guid: 6916c46568a51834d9915b6e077eb1a0, type: 3}
+  baseArgs:
+    price: 50
+    goodsType: 4
+  prefab: {fileID: 9063149816141802138, guid: a80098c6c0db16c46bd3a7e8e49df5ee, type: 3}
+  ammoGoodsArgs:
+    num: 50
+    weaponType: 3

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1acf4730bdc9b345832f394d5301004, type: 3}
+  m_Name: Boss3Enemy
+  m_EditorClassIdentifier: 
+  enemyType: 14
+  sprite: {fileID: 21300000, guid: 0ccc508108fa6ed4fa11b4a467d7f609, type: 3}
+  baseArgs:
+    maxHealth: 300
+    moveSpeed: 0
+    deadRewardNum: 10
+    deadRewardType: 0
+    isGround: 0
+  prefab: {fileID: -3473088686703195057, guid: 6bc5237a84f7d27419df5bea6c3085a8, type: 3}
+  anim: {fileID: 0}
+  boss3Args:
+    hpGradient:
+      serializedVersion: 2
+      key0: {r: 0.9607844, g: 0.058823533, b: 0.058823533, a: 1}
+      key1: {r: 0.9607843, g: 0.890317, b: 0.07843139, a: 1}
+      key2: {r: 0.22660972, g: 0.9622642, b: 0.077162705, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 6554
+      ctime1: 19661
+      ctime2: 42791
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    GenerateZombie_CoolDown: 5
+    GenerateZombie_Num: 3
+    GenerateZombie_Waves: 2
+    GenerateZombie_interval: 1
+    GenerateMissile_CoolDown: 7
+    GenerateMissile_Num: 5
+    GenerateMissile_interval: 1
+    FireHand_CoolDown: 30
+    bossName: The Giant
+  hpBarObj: {fileID: 0}

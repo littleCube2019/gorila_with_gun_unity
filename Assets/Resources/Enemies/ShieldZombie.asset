@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb8f27f69da7704b9123af7a111061e, type: 3}
+  m_Name: ShieldZombie
+  m_EditorClassIdentifier: 
+  enemyType: 7
+  sprite: {fileID: 21300000, guid: 9e9474494461bd048803b48e391ef0f6, type: 3}
+  baseArgs:
+    maxHealth: 5
+    moveSpeed: 1
+    deadRewardNum: 0
+    deadRewardType: 0
+    isGround: 1
+  prefab: {fileID: -8051251082815757273, guid: c00a49163fce7e54dabd40926561eb41, type: 3}
+  anim: {fileID: 0}
+  meleeArgs:
+    attackPower: 0
+    attackRange: 0
+    cooldown: 0
+    isKnockBack: 0
+    knockBackSpeed: 0
+    knockBackIntervel: 0
+    isFaceToPlayer: 0
+  shieldArgs:
+    shieldHp: 5

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30aa85339429cc48b857121667966cb, type: 3}
+  m_Name: laser
+  m_EditorClassIdentifier: 
+  weaponType: 6
+  sprite: {fileID: 21300000, guid: 54c89ead481fc7a45801373bde774390, type: 3}
+  baseArgs:
+    buyPrice: 0
+    level: 0
+    coolDown: 100
+  prefab: {fileID: 405397477467939436, guid: 796906c219592894798ea9fd8f863d74, type: 3}
+  gunArgs:
+    soundEffectName: beam
+    maxAmmoAmount: 30
+    range: 50
+    atk: 2
+    ammoSpeed: 0
+    ammoGoodsType: 6
+    ammoSprite: {fileID: 0}
+    bias: 0
+    isPenetrate: 1
+    isShotgun: 0
+    shotgunAngle: 0
+    NumOfShotgunAmmo: 0
+    isFadingOut: 1
+    lifeTime: 0.5
+    isGravity: 0
+    gravityScale: 0
+    initforceScale: 0
